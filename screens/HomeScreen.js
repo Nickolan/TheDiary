@@ -14,7 +14,10 @@ const HomeScreen = () => {
         data={arr}
         renderItem={({item}) => {
             return(
-                <Text>{item.name}</Text>
+                <View>
+                  <Text>{item.name}</Text>
+                  <Text>{item.value}</Text>
+                </View>
             )
         }}
         />
